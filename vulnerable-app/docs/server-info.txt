@@ -1,4 +1,11 @@
-Server Information – Web Tier
+# ===========================================================
+# LAB FILE - INTENTIONALLY FAKE CREDENTIALS FOR DEMO ONLY
+# AWS example keys from: https://docs.aws.amazon.com/general/
+# These are NOT real and have NEVER been valid.
+# Purpose: simulate the "developer mistake" of leaving
+#          credentials in a config file (lab scenario).
+# ===========================================================
+Server Information - Web Tier
 ==============================
 
 Hostname    : corpweb01
