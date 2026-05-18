@@ -498,4 +498,4 @@ See [`defense/ml_anomaly_detection.py`](defense/ml_anomaly_detection.py) for the
 
 ---
 
-*Built by [Your Name] | Cybersecurity & Cloud Security Research | 2025*
+*Built by [ttienpham] | Cybersecurity & Cloud Security Research | 2025*
