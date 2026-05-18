@@ -1,0 +1,54 @@
+# .gitignore
+# The Leaky Bridge -- Git Ignore Rules
+
+# ── CRITICAL: Never commit real credentials ──────────────────
+*.credentials
+generated_credentials.txt
+.aws/
+**/credentials
+**/.env
+**/*.key
+**/*.pem
+
+# ── Lab outputs (generated at runtime — do NOT push) ─────────
+attack/exfiltrated/
+aws-setup/simulated-cloud/
+aws-setup/generated_credentials.txt
+**/exfil_report.json
+
+# Screenshots (add manually if you want them in repo)
+docs/screenshots/
+**/*.pem
+
+# Exfiltrated data (lab output)
+exfiltrated/
+stolen-data/
+*.exfil
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.egg
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

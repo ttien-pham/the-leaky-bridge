@@ -1,0 +1,31 @@
+Server Information – Web Tier
+==============================
+
+Hostname    : corpweb01
+OS          : Ubuntu 22.04.3 LTS
+Kernel      : 5.15.0-91-generic
+Apache      : 2.4.52
+PHP         : 8.1.2
+Uptime      : 47 days, 3 hours
+
+DISK USAGE
+----------
+  /          :  12 GB / 40 GB
+  /var/www   :   2 GB / 10 GB
+
+OPEN PORTS
+----------
+  22  (SSH)   – restricted to 10.0.0.0/24
+  80  (HTTP)  – public
+  443 (HTTPS) – public
+
+SCHEDULED TASKS (crontab)
+-------------------------
+  */5 * * * *  /opt/scripts/s3-backup.sh   # Sync /var/www to S3
+
+ENVIRONMENT VARIABLES (loaded via /etc/environment)
+----------------------------------------------------
+  APP_ENV=production
+  AWS_DEFAULT_REGION=ap-southeast-1
+  AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+  AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY

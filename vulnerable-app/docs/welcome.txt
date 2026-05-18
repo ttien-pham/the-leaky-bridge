@@ -1,0 +1,10 @@
+Welcome to CorpIntranet Portal
+==============================
+
+This internal portal provides document management, server monitoring,
+and IT asset tracking for all departments.
+
+For technical support, contact: it-support@corp-internal.local
+Emergency hotline: ext. 1337
+
+System last updated: 2025-03-12

@@ -1,0 +1,11 @@
+customer_id,name,email,phone,credit_card,account_balance
+C001,Nguyen Van An,an.nguyen@gmail.com,0901234567,4111-1111-1111-1111,15230.50
+C002,Tran Thi Bich,bich.tran@yahoo.com,0912345678,5500-0000-0000-0004,8420.75
+C003,Le Hoang Nam,nam.le@outlook.com,0923456789,3400-0000-0000-009,225000.00
+C004,Pham Minh Duc,duc.pham@corp.vn,0934567890,6011-0000-0000-0004,4100.20
+C005,Hoang Thi Mai,mai.hoang@gmail.com,0945678901,3530-1111-3333-0000,67300.90
+C006,Do Quoc Hung,hung.do@company.vn,0956789012,4111-1111-1111-1111,2890.40
+C007,Vu Thi Lan,lan.vu@example.com,0967890123,5500-0000-0000-0004,19500.00
+C008,Bui Thanh Tung,tung.bui@email.vn,0978901234,3400-0000-0000-009,55000.80
+C009,Dang Phuong Linh,linh.dang@gmail.com,0989012345,6011-0000-0000-0004,3200.15
+C010,Ly Van Cuong,cuong.ly@vn.com,0990123456,3530-1111-3333-0000,128000.00

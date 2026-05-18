@@ -1,0 +1,21 @@
+CorpIntranet – Network Map
+==========================
+
+INTERNAL SUBNETS
+----------------
+  10.0.0.0/24  – Office LAN
+  10.0.1.0/24  – DMZ / Web Servers
+  10.0.2.0/24  – Database Tier
+
+KEY HOSTS
+---------
+  10.0.1.10   – Web Server (this machine)   [Ubuntu 22.04, Apache 2.4]
+  10.0.1.11   – App Server                  [Tomcat 9]
+  10.0.2.10   – Database                    [MySQL 8.0]
+
+CLOUD INTEGRATION
+-----------------
+  AWS Region  : ap-southeast-1 (Singapore)
+  S3 Bucket   : corp-sensitive-docs-prod
+  IAM User    : svc-backup-agent
+  NOTE        : Credentials stored in /home/ubuntu/.aws/credentials

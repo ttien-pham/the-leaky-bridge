@@ -1,0 +1,20 @@
+# requirements.txt
+# The Leaky Bridge — Python Dependencies
+
+# AWS SDK
+boto3>=1.34.0
+botocore>=1.34.0
+
+# HTTP requests (for LFI exploit script)
+requests>=2.31.0
+
+# Nmap Python wrapper (requires nmap installed on OS)
+python-nmap>=0.7.1
+
+# Timezone support (CloudTrail detector)
+pytz>=2024.1
+
+# Machine Learning (ML anomaly detection — optional)
+scikit-learn>=1.4.0
+pandas>=2.0.0
+numpy>=1.26.0
