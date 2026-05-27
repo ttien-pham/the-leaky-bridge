@@ -224,8 +224,8 @@ download: financial_report_2024.csv → stolen-data/financial_report_2024.csv
 **Giải pháp (`defense/fixed_index.php`):** Thay vì chấp nhận bất kỳ tên file nào từ người dùng, chỉ cho phép một danh sách file đã được phê duyệt sẵn:
 
 ```php
-// ✅ Allowlist: chỉ cho phép đúng 3 file này
-const ALLOWED_FILES = ['welcome.txt', 'network-map.txt', 'server-info.txt'];
+// ✅ Allowlist: chỉ cho phép đúng 4 file này
+const ALLOWED_FILES = ['welcome.txt', 'network-map.txt', 'server-info.txt', 'maintenance.txt'];
 
 if (!in_array($_GET['file'], ALLOWED_FILES, true)) {
     die("Access denied.");  // Từ chối tất cả thứ khác
